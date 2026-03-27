@@ -1,25 +1,33 @@
+using System.IO;
 using UnityEngine;
 
 public class playermovment : MonoBehaviour
 {
     private Animator animator;
+    public float speed = 3f;
 
-    private void Start()
+    void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    private void Update()
+    void Update()
     {
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.W))
         {
             animator.SetBool("isWalking", true);
             GetComponent<SpriteRenderer>().flipX = true;
+            transform.Translate(Vector2.left * speed * Time.deltaTime);
+        }
+        else if (Input.GetKey(KeyCode.S))   
+        {
+            animator.SetBool("isWalking", true);
+            GetComponent<SpriteRenderer>().flipX = false;
+            transform.Translate(Vector2.right * speed * Time.deltaTime);
         }
         else
         {
             animator.SetBool("isWalking", false);
-            GetComponent <SpriteRenderer>().flipY = false;
         }
 
     }
