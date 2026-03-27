@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 0e98ba07c3d46f84a980f823fd495385
+guid: 9986500261da90f4fa81c52d3a7405e8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8809099627572735297
-    second: prota animacion parada flattened_0
-  - first:
-      213: 2239092981782484873
-    second: prota animacion parada flattened_1
+      213: 5404673562448157628
+    second: fondo pixel art_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,45 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: prota animacion parada flattened_0
+      name: fondo pixel art_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 30
-        height: 124
-      alignment: 9
-      pivot: {x: 0.49506176, y: 0.537037}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb25083bf8acfb580800000000000000
-      internalID: -8809099627572735297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: prota animacion parada flattened_1
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 0
-        width: 28
-        height: 114
+        width: 320
+        height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9871736243bd21f10800000000000000
-      internalID: 2239092981782484873
+      spriteID: cbbdaa848f1410b40800000000000000
+      internalID: 5404673562448157628
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e95464cb714f3744a9357f7bd4bb982d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      prota animacion parada flattened_0: -8809099627572735297
-      prota animacion parada flattened_1: 2239092981782484873
+      fondo pixel art_0: 5404673562448157628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
