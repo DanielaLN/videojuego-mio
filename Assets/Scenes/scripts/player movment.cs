@@ -13,13 +13,13 @@ public class playermovment : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             animator.SetBool("isWalking", true);
             GetComponent<SpriteRenderer>().flipX = true;
             transform.Translate(Vector2.left * speed * Time.deltaTime);
         }
-        else if (Input.GetKey(KeyCode.S))   
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
             animator.SetBool("isWalking", true);
             GetComponent<SpriteRenderer>().flipX = false;
